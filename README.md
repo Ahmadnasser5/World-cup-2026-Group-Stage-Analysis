@@ -35,18 +35,4 @@ The project goes beyond surface-level stats by introducing engineered metrics:
 
 ---
 
-## 📁 Repository Structure
 
-```text
-├── data/
-│   ├── raw_fotmob_data.csv       # Raw scraped data from 28 sub-cards
-│   └── processed_teams_data.csv  # Cleaned data with engineered features
-├── notebooks/
-│   ├── 1_web_scraping.ipynb      # Selenium & BS4 scraping pipeline
-│   ├── 2_data_cleaning.ipynb     # Preprocessing and handling missing values
-│   └── 3_clustering_analysis.ipynb # K-Means modeling and visualizations
-├── src/
-│   ├── scraper.py                # Modular scraping script
-│   └── utils.py                  # Helper functions for scaling and metric formulas
-├── README.md
-└── requirements.txt
